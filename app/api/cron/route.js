@@ -1,4 +1,4 @@
-import { connectDB } from "@/lib/db";
+import {connectDB} from "@/lib/db"; // ✅ सही
 import Signal from "@/models/Signal";
 import { generateSignal } from "@/lib/signalEngine";
 
